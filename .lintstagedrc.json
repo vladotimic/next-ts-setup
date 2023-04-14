@@ -1,0 +1,6 @@
+{
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx}": ["npm run format"],
+    "**/*.{css,md,html,json}": ["prettier --write ."]
+  }
+}
