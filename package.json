@@ -36,5 +36,13 @@
     "eslint-plugin-react-hooks": "^4.3.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.2.1"
+  },
+  "lint-staged": {
+    "./**/*.{js,jsx,ts,tsx}": [
+      "npm run format"
+    ],
+    "./**/*.{css,md,html,json}": [
+      "prettier --write ."
+    ]
   }
 }
