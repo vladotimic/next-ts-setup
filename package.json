@@ -38,9 +38,7 @@
     "lint-staged": "^13.2.1"
   },
   "lint-staged": {
-    "./**/*.{js,jsx,ts,tsx}": [
-      "npm run format"
-    ],
+    "./**/*.{js,jsx,ts,tsx}": "npm run format",
     "./**/*.{css,md,html,json}": [
       "prettier --write ."
     ]
