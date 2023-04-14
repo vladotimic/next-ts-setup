@@ -1,15 +1,34 @@
+# Next.js project boilerplate setup with TypeScript, Eslint and Prettier configuration.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Features
+
+Project setup with:
+
+- [Next.js](https://nextjs.org/) React framework for building web applications ⚛️
+- Type checking with [TypeScript](https://www.typescriptlang.org/) ✅
+- Linting with [Eslint](https://eslint.org/) ✅
+- Code formatting with [Prettier](https://prettier.io/) ✅
+
+## Requirements
+
+- Node.js version used `v18.16.0`
 
 ## Getting Started
 
-First, run the development server:
+First, clone repository to your local machine:
+
+```bash
+git clone git@github.com:vladotimic/next-ts-setup.git my-project
+cd my-project
+npm install
+```
+
+After cloning and installing npm packages, start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
