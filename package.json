@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && tsc --pretty --noEmit",
-    "lint:fix": "eslint . --ext .ts,.tsx,.js --fix",
-    "format": "prettier --write .",
-    "test": "npm run format && npm run lint",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "npm run lint:fix && prettier --write .",
+    "check-types": "tsc --noEmit --pretty",
     "prepare": "husky install"
   },
   "dependencies": {
