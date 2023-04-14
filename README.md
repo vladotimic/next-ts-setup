@@ -10,6 +10,7 @@ Project setup with:
 - Type checking with [TypeScript](https://www.typescriptlang.org/) ✅
 - Linting with [Eslint](https://eslint.org/) ✅
 - Code formatting with [Prettier](https://prettier.io/) ✅
+- Git Hooks with [Husky](https://typicode.github.io/husky/#/) ✅
 
 ## Requirements
 
