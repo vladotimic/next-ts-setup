@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Project setup with:
 
-- [Next.js](https://nextjs.org/) React framework for building web applications ⚛️
+- [Next.js](https://nextjs.org/) React framework for building web applications ✅
 - Type checking with [TypeScript](https://www.typescriptlang.org/) ✅
 - Linting with [Eslint](https://eslint.org/) ✅
 - Code formatting with [Prettier](https://prettier.io/) ✅
